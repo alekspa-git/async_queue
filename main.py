@@ -31,7 +31,6 @@ def run_consumer(count):
 @click.command(help='Run simple web-server')
 def run_web():
     click.echo(click.style('Running web-server...', fg='yellow'))
-
     run_web_server()
 
 

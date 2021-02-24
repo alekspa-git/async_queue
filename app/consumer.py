@@ -1,7 +1,6 @@
 import asyncio
 import logging
 
-import aioamqp
 import requests
 
 from app.utils import get_config, ConnectorMQ
